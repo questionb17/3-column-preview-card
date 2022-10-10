@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+.cards-container{
+    width: 90%;
+    /* height: 500px; */
+    background-color: brown;
+    margin: auto;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+
+.cards-container .card{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+
+#card-1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+#card-1 img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+h1{
+    padding-top: 120px;
+    padding-left: 50px;
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+}
+
+.p1{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 200px;
+    font-size: 17px;
+    font-family: 'lexend', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#button-1{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 45%;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+#card-2 img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+h2{
+    padding-top: 120px;
+    padding-left: 50px;
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white; 
+}
+
+.p2{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 200px;
+    font-size: 17px;
+    font-family: 'lexend', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#button-2{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 45%;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    position: absolute; 
+}
+
+#card-3 img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+h3{
+    padding-top: 150px;
+    padding-left: 50px;
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white; 
+}
+
+.p3{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 220px;
+    font-size: 17px;
+    font-family: 'lexend', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#button-3{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 45%;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    position: absolute; 
+}
+
+
+
+@media screen and (min-width: 733px) {
+    .cards-container{
+        flex-direction: row;
+    }
+
+    #button-1{
+        margin-left: 50px;
+        width: 20%;
+    }
+
+    #button-2{
+        margin-left: 50px;
+        width: 20%;
+    }
+
+    #button-3{
+        margin-left: 50px;
+        width: 20%;
+        position: absolute;
+        margin-top: j;
+    }
+
+    h3{
+      padding-top: 120px;
+    }
+
+    .p3{
+        padding-top: 190px;
+    }
+}
